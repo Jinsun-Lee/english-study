@@ -14,7 +14,7 @@ description: 커밋 메시지·md 파일 포맷팅 규칙과 학습 파일 생�
 
 ### md 파일 포맷팅 규칙
 - 이 규칙은 `.github/`, `.claude/`, `README.md` 등 모든 md 파일에 적용한다.
-- 모든 md 파일 맨 위에 OKF 포맷의 frontmatter를 두고, 필드는 `tag`와 `description` 두 개만 작성한다.
+- 모든 md 파일 맨 위에 OKF 포맷의 frontmatter를 두고, 필드는 `tag`와 `description` 두 개만 작성한다. (README 파일은 제외)
 - `###`을 기준으로 불렛(`-`)으로 내용을 정리한다.
 - `###` 섹션 사이에는 빈 줄 + `<br>` + 빈 줄로 구분한다.
 - 불필요하게 단락을 나누지 않는다.
