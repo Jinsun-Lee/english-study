@@ -1,53 +1,54 @@
 ---
 tag: config
-description: 커밋 메시지·md 파일 포맷팅 규칙과 학습 파일 생성 규칙
+description: Commit message and md formatting rules, plus creation rules for learning files
 ---
 
-### 커밋 메시지 포맷팅 규칙
-- `[태그] 한국어 설명` 형식을 사용한다.
-- 태그: `docs`(문서 추가/수정), `chore`(파일 이동/삭제/정리), `feat`(기능 추가), `fix`(버그 수정)
-- 설명은 한 줄로 간결하게 작성한다.
-- Co-Authored-By 라인이나 불필요한 부연 설명을 넣지 않는다.
-- 커밋을 수정(amend/rebase)할 때 원래 커밋의 시간(author date)을 유지한다.
+### Commit Message Rules
+- Use the `[tag] Korean description` format.
+- Tags: `docs` (add/edit documents), `chore` (move/delete/organize files), `feat` (add features), `fix` (bug fixes)
+- Keep the description to one concise line.
+- Do not add Co-Authored-By lines or unnecessary extra text.
+- When amending or rebasing a commit, keep the original author date.
 
 <br>
 
-### md 파일 포맷팅 규칙
-- 이 규칙은 `.github/`, `.claude/`, `README.md` 등 모든 md 파일에 적용한다.
-- 모든 md 파일 맨 위에 OKF 포맷의 frontmatter를 두고, 필드는 `tag`와 `description` 두 개만 작성한다.
-- `###`을 기준으로 불렛(`-`)으로 내용을 정리한다.
-- `###` 섹션 사이에는 빈 줄 + `<br>` + 빈 줄로 구분한다.
-- 불필요하게 단락을 나누지 않는다.
-- 파일 마지막 줄에 빈줄을 넣지 않는다.
-- 취소선 용도가 아닌 물결표는 취소선으로 해석되지 않도록 항상 앞에 역슬래시를 붙여 `\~`로 쓴다.
-- 파일 설명은 ```- `파일명`: 설명``` 형식으로 통일한다.
+### md Formatting Rules
+- These rules apply to every md file, including `.github/`, `.claude/`, and `README.md`.
+- Write all documents in English; only the user's answer scripts (`.github/answers/`) and the Korean learning content inside expressions/trends files stay in Korean.
+- Put an OKF-format frontmatter at the top of every md file, with only two fields: `tag` and `description`.
+- Organize content as bullet points (`-`) under `###` headings.
+- Separate `###` sections with a blank line + `<br>` + a blank line.
+- Do not split paragraphs unnecessarily.
+- Do not leave a blank line at the end of a file.
+- Escape any tilde not meant as strikethrough with a backslash: `\~`.
+- Describe files in the form ``- `filename`: description``.
 
 <br>
 
-### .github/trends 파일 포맷팅 규칙
-- 유저가 최근 출제 경향 정보를 주면 `.github/trends/` 폴더 내에 md 파일을 생성하고 내용을 정리한다.
-- 파일명은 `yyyy_mm_dd.md` 형식으로 작성한다. (예: `2024_09_14.md`)
-- 연도는 반드시 4자리(yyyy)로 작성한다.
-- 날짜 구분자는 하이픈(-) 대신 언더스코어(_)를 사용한다.
+### .github/trends File Rules
+- When the user shares recent topic trends, create an md file in `.github/trends/`.
+- Name the file `yyyy_mm_dd.md` (e.g. `2024_09_14.md`).
+- Always write the year with 4 digits (yyyy).
+- Use underscores (_) instead of hyphens (-) in dates.
 
 <br>
 
-### .github/answers 파일 포맷팅 규칙
-- 유저가 말한 전체 스크립트는 `.github/answers/` 폴더 내에 md 파일을 생성하고 내용을 정리한다.
-- 파일명은 `yyyy_mm_dd_짧게내용.md` 형식으로 작성한다. (예: `2024_08_20_디지털세상과필기.md`)
-- 연도는 반드시 4자리(yyyy)로 작성한다.
-- 날짜 구분자는 하이픈(-) 대신 언더스코어(_)를 사용한다.
-- 날짜와 내용 사이도 언더스코어(_)로 구분한다.
+### .github/answers File Rules
+- When the user shares a full spoken script, create an md file in `.github/answers/`.
+- Name the file `yyyy_mm_dd_short_topic.md` (e.g. `2024_08_20_디지털세상과필기.md`).
+- Always write the year with 4 digits (yyyy).
+- Use underscores (_) instead of hyphens (-) in dates.
+- Separate the date and the topic with an underscore (_) as well.
 
 <br>
 
-### .github/level 파일 포맷팅 규칙
-- 사용자 영어 수준 분석은 `.github/level/수준분석.md` 단일 파일로 관리한다.
-- 답변 피드백을 줄 때마다 분석 내용과 갱신 날짜(`yyyy_mm_dd`)를 업데이트한다.
+### .github/level File Rules
+- Manage the user's English level analysis in a single file: `.github/level/level_analysis.md`.
+- Update the analysis and its date (`yyyy_mm_dd`) every time answer feedback is given.
 
 <br>
 
-### .github/expressions 파일 포맷팅 규칙
-- 유저가 복습하고자 하는 내용을 알려주면, 짧은 설명과 함께 `.github/expressions/` 폴더에 별도의 파일을 생성한다.
-- 파일명은 날짜 없이 한국어로 띄어쓰기 없이 간단한 설명만 쓴다. (예: `피드백요청시.md`)
-- 레포지토리 루트의 `README.md` 맨 아래에 해당 내용을 추가한다.
+### .github/expressions File Rules
+- When the user asks to save something for review, create a separate file in `.github/expressions/` with a short description.
+- Name the file in Korean without spaces and without a date (e.g. `피드백요청시.md`).
+- Add the new entry to the bottom of the root `README.md`.

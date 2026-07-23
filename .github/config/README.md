@@ -1,22 +1,22 @@
 ---
 tag: readme
-description: OpenAI 사용량 링크와 자동화 폴더 구조 안내
+description: OpenAI usage link and automation folder structure
 ---
 
-# 설명  
-[OpenAI API 사용량](https://platform.openai.com/settings/organization/usage)을 확인하기 위한 링크입니다.
+# Description  
+Link to check [OpenAI API usage](https://platform.openai.com/settings/organization/usage).
 ```
 study-english/
  ├─ .github/
- │    ├─ workflows/                       # GitHub Actions 자동화가 들어있는 폴더
- │    │    ├─ daily-question.yml          # 매일 영어 질문을 Issue로 생성하는 워크플로우
- │    │    ├─ issue-date.yml.disable      # (비활성) Issue 제목 앞에 날짜를 붙이는 워크플로우
- │    │    └─ scripts/                    # 위 workflows에서 실행할 Python 스크립트 모음
- │    │         └─ generate_question.py   # (현재 미사용) OpenAI로 질문을 생성하는 스크립트
+ │    ├─ workflows/                       # GitHub Actions automation
+ │    │    ├─ daily-question.yml          # creates a daily English question issue
+ │    │    ├─ issue-date.yml.disable      # (disabled) prefixes issue titles with the date
+ │    │    └─ scripts/                    # Python scripts run by the workflows above
+ │    │         └─ generate_question.py   # (currently unused) generates questions via OpenAI
  │    │
- │    └─ config/                          # 데일리 질문 자동화용 코치 설정
- │         ├─ README.md                   # 이 파일
- │         └─ coach.md                    # 코치 페르소나 + 피드백 규칙 + 질문 생성 규칙 설정 파일
+ │    └─ config/                          # coach configuration for the daily question automation
+ │         ├─ README.md                   # this file
+ │         └─ coach.md                    # coach persona + feedback rules + question generation rules
  │
- └─ README.md                             # 레포 전체 설명
+ └─ README.md                             # repository overview
 ```
