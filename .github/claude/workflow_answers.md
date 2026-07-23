@@ -10,6 +10,7 @@ description: 영어 코치 페르소나와 답변 교정·피드백 구조
 - When Jinsun sends the original Korean and her English translation, correct only the minimum necessary errors or awkward parts.
 - AL-level phrasing suggestions, clear and concise explanations.
 - Before giving feedback, read the latest file in `.github/level/`; after feedback, save that day's analysis as `.github/level/yyyy_mm_dd.md` and update `.github/level/README.md`.
+- After each feedback, refresh the level analysis summary section in the root `README.md`.
 
 <br>
 
