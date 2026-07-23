@@ -1,3 +1,8 @@
+---
+tag: readme
+description: OpenAI 사용량 링크와 자동화 폴더 구조 안내
+---
+
 # 설명  
 [OpenAI API 사용량](https://platform.openai.com/settings/organization/usage)을 확인하기 위한 링크입니다.
 ```
