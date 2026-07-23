@@ -9,20 +9,22 @@
 - `.github/claude/`: Claude가 워크플로우를 수행할 때 참고하는 설정 파일
 - `.github/answers/`: 사용자가 작성한 영어 답변 스크립트 (`yyyy_mm_dd_내용.md`)
 - `.github/expressions/`: 복습용 표현 정리 파일 (한국어 파일명, 날짜 없음)
-- `.github/trends/`: OPIc 최근 출제 경향 파일 (`yyyy_mm_dd.md`)
+- `.github/trends/`: 말하기 연습 주제로 참고하는 최근 경향 파일 (`yyyy_mm_dd.md`)
+- `.github/config/`: 데일리 질문 자동화가 참고하는 코치 설정 파일
+- `.github/workflows/`: 매일 영어 질문 이슈를 생성하는 GitHub Actions 워크플로우
 
 <br>
 
 ### 설정 파일 안내 (.github/claude/)
-- `formatting.md`: 커밋 메시지 포맷(`[태그] 한국어 설명`)과 md 파일 포맷팅 규칙
-- `workflow_answers.md`: 답변 파일 이름 규칙(`yyyy_mm_dd_내용.md`)과 영어 코치 페르소나·피드백 구조·질문 생성 규칙
-- `workflow_expressions.md`: 사용자가 복습할 표현을 알려주면 `.github/expressions/`에 파일 생성하고 `README.md`에 추가하는 워크플로우
-- `workflow_trends.md`: 사용자가 출제 경향을 알려주면 `.github/trends/`에 날짜 파일 생성, 문제 출제 시 최신 경향 파일 하나만 참조하는 워크플로우
+- `formatting.md`: 커밋 메시지 포맷(`[태그] 한국어 설명`), md 파일 포맷팅 규칙, answers·expressions·trends 파일 생성 규칙
+- `workflow_answers.md`: 영어 코치 페르소나와 답변 교정·피드백 구조
+- `workflow_questions.md`: 회화 연습 질문 생성 규칙과 사용자 배경 정보
 
 <br>
 
 ### 작업 시 주의사항
 - 새 작업을 시작하기 전에 해당 워크플로우 파일을 반드시 읽는다.
 - 파일 생성·수정 시 `formatting.md`의 포맷팅 규칙을 따른다.
+- 사용자 배경 정보는 `workflow_questions.md`에서만 관리하고, 다른 파일은 그 내용과 일치시킨다.
 - Co-Authored-By 라인을 커밋 메시지에 넣지 않는다.
 - 날짜 구분자는 하이픈(`-`)이 아니라 언더스코어(`_`)를 사용한다.
