@@ -15,6 +15,7 @@ description: Claude가 참고하는 프로젝트 전체 지침
 - `.github/answers/`: 사용자가 작성한 영어 답변 스크립트 (`yyyy_mm_dd_내용.md`)
 - `.github/expressions/`: 복습용 표현 정리 파일 (한국어 파일명, 날짜 없음)
 - `.github/trends/`: 말하기 연습 주제로 참고하는 최근 경향 파일 (`yyyy_mm_dd.md`)
+- `.github/level/`: 사용자 영어 수준 분석 파일 (답변 피드백 시마다 갱신)
 - `.github/config/`: 데일리 질문 자동화가 참고하는 코치 설정 파일
 - `.github/workflows/`: 매일 영어 질문 이슈를 생성하는 GitHub Actions 워크플로우
 
