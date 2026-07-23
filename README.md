@@ -1,13 +1,13 @@
 ---
 tag: readme
-description: Repository for recording and organizing English study
+description: 영어 학습 내용을 기록하고 정리하는 저장소 설명
 ---
 
-# Description  
-A repository for recording and organizing English conversation study.
+# 설명  
+영어 학습 내용을 기록하고 정리하기 위한 저장소입니다.
 
 <br>
 
-### Review Expressions (.github/expressions/)
-- `오랜만에뭐뭐하다.md`: expressions for returning to something after a long break
-- `피드백요청시.md`: expressions for asking for feedback or how to say something
+### 복습용 표현 정리 (.github/expressions/)
+- `오랜만에뭐뭐하다.md`: 오랜만에 무언가를 다시 시작했을 때 쓰는 표현
+- `피드백요청시.md`: 피드백을 요청하거나 표현을 물어볼 때 쓰는 표현
