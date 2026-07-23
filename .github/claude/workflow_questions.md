@@ -1,5 +1,5 @@
 ---
-tag: workflow
+tag: 질문생성, 배경정보
 description: 회화 연습 질문 생성 규칙과 사용자 배경 정보
 ---
 

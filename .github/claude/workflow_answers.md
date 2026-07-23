@@ -1,5 +1,5 @@
 ---
-tag: workflow
+tag: 교정, 피드백, 코치
 description: 영어 코치 페르소나와 답변 교정·피드백 구조
 ---
 

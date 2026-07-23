@@ -1,5 +1,5 @@
 ---
-tag: config
+tag: 지침, 규칙, 프로젝트
 description: Claude가 참고하는 프로젝트 전체 지침
 ---
 
