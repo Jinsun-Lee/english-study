@@ -9,4 +9,3 @@
 - [`expressions/`](expressions/): 복습용 표현 정리 파일 (한국어 파일명, 날짜 없음)
 - [`trends/`](trends/): 말하기 연습 주제로 참고하는 최근 경향 파일 (`yyyy_mm_dd.md`)
 - [`level/`](level/): 사용자 영어 수준 분석 파일 (답변 피드백 시마다 갱신)
-- [`config/`](config/): 코치 페르소나·피드백·질문 생성 설정 파일

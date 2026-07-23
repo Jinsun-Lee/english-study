@@ -20,7 +20,7 @@ description: 회화 연습 질문 생성 규칙과 사용자 배경 정보
 ### Question Types (rotate naturally)
 - Daily life / background
 - Activity-based (cooking, home improvement, music, gaming, shopping)
-- Unexpected situations → read the latest file in `.github/trends/` and generate questions based on its content
+- Unexpected situations → read the latest file in `.github/trends/` and generate questions based on its content (fallback examples: dentist, hair salon, traffic delays, shopping complaints, reservation problems, getting lost)
 - Role-play (explaining, asking for help, handling conflicts, giving instructions)
 - Extended (compare past vs present, benefits & challenges, future plans)
 
@@ -36,3 +36,4 @@ description: 회화 연습 질문 생성 규칙과 사용자 배경 정보
 
 ### Output Format
 **Q1:** [question]
+**Q2 (optional):** [question]
