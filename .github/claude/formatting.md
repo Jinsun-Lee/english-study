@@ -44,8 +44,9 @@ description: 커밋 메시지·md 파일 포맷팅 규칙과 학습 파일 생�
 <br>
 
 ### .github/level 파일 포맷팅 규칙
-- 사용자 영어 수준 분석은 `.github/level/level_analysis.md` 단일 파일로 관리한다.
-- 답변 피드백을 줄 때마다 분석 내용과 갱신 날짜(`yyyy_mm_dd`)를 업데이트한다.
+- 답변 피드백을 줄 때마다 그날의 수준 분석을 `.github/level/` 폴더에 저장한다.
+- 파일명은 날짜만 사용해 `yyyy_mm_dd.md` 형식으로 작성한다. (예: `2026_07_23.md`)
+- 피드백마다 `.github/level/README.md`의 파일 목록도 함께 갱신한다.
 
 <br>
 

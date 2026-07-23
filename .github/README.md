@@ -8,4 +8,4 @@
 - [`answers/`](answers/): 사용자가 작성한 영어 답변 스크립트 (`yyyy_mm_dd.md`)
 - [`expressions/`](expressions/): 복습용 표현 정리 파일 (영어 파일명, 날짜 없음)
 - [`trends/`](trends/): 말하기 연습 주제로 참고하는 최근 경향 파일 (`yyyy_mm_dd.md`)
-- [`level/`](level/): 사용자 영어 수준 분석 파일 (답변 피드백 시마다 갱신)
+- [`level/`](level/): 날짜별 사용자 영어 수준 분석 파일 (`yyyy_mm_dd.md`)
