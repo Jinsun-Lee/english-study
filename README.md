@@ -9,9 +9,3 @@
 - 약점: 시제 일관성, 관사 누락, 비교급 중복, 직역식 전치사·동사 선택, 막힐 때 한국어 혼용
 - 우선 개선 포인트: 과거 시제 통일, 관사(the/a) 판단 습관
 - 날짜별 상세 분석: [`.github/level/`](.github/level/)
-
-<br>
-
-### 복습용 표현 정리 (.github/expressions/)
-- `after_a_long_break.md`: 오랜만에 무언가를 다시 시작했을 때 쓰는 표현
-- `asking_for_feedback.md`: 피드백을 요청하거나 표현을 물어볼 때 쓰는 표현
