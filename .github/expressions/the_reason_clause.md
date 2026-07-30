@@ -21,3 +21,10 @@ The reason this came up is our company's new intern.
 ```
 The reason I want to sort things out in Korean first is that I tend to ramble.
 ```
+
+<br><br>
+
+이 얘기가 나온 이유는 깃허브 아이콘이 팬케이크로 바뀌어서야.
+```
+The reason this came up is that the GitHub icon turned into a pancake.
+```
