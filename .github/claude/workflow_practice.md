@@ -21,7 +21,7 @@ description: 단어 없이 구조로 말하는 회화 연습 방법론과 기록
 <br>
 
 ### 기록 규칙 (세 폴더 역할 분리)
-- 그날 연습 풀 스크립트(하고 싶은 말 + 교정 + 핵심 구조로 만든 문장 전부) → `.github/answers/`에 `yyyy_mm_dd.md`로 저장한다. (같은 날은 기존 파일에 이어 쓴다)
+- 그날 연습 풀 스크립트 → `.github/answers/`에 `yyyy_mm_dd.md`로 저장한다. 각 대답은 `(원문)`과 `(교정)`을 남기고, 자연스러운 AL-level 버전까지 정리할 땐 `(원문)` + `(교정)` + `(자연스러운)` 3개로 기록한다. (같은 날은 기존 파일에 이어 쓴다)
 - 재사용 가치 있는 핵심 구조·짧은 표현·숙어만 증류 → `.github/expressions/`에 별도 파일로 저장하고 `expressions/README.md` 인덱스에 추가한다. (영어 파일명 + 상단 `tag`/`description` frontmatter)
 - 약점·수준 분석 요약 → `.github/level/`에 `yyyy_mm_dd.md`로 저장하고 루트 `README.md`의 수준 요약을 갱신한다.
 - 하루에 여러 번 연습해도 answers는 날짜별로, expressions는 구조·표현별로, level은 약점 추이로 쌓여 복습이 쉽다.
