@@ -30,3 +30,10 @@ The reason I want to sort things out in Korean first is that I tend to ramble.
 ```
 The reason this came up is that the GitHub icon turned into a pancake.
 ```
+
+<br><br>
+
+이 얘기가 나온 이유는 깃허브 아이콘이 핫케이크로 바뀐 걸 봤거든.
+```
+The reason this came up is that I noticed the GitHub icon had turned into a pancake.
+```
